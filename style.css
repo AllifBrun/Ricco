@@ -61,13 +61,15 @@ button:hover {
   color: black;
 }
 
-@media (max-width: 600px) {
+/* Media Queries para Responsividade */
+@media (max-width: 768px) {
   .main-container {
     margin: 5px;
   }
 
   input, button {
     font-size: 14px;
+    padding: 8px;
   }
 
   button {
@@ -75,3 +77,18 @@ button:hover {
     max-width: none;
   }
 }
+
+@media (max-width: 480px) {
+  .importacao {
+    padding: 15px;
+  }
+
+  input, button {
+    font-size: 12px;
+    padding: 6px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+    }
